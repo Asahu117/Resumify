@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  /* background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%),
+    url("planets.jpg"); */
+}
+.container {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 30px;
+  margin: 50px 15px;
+  background-color: #dde721;
+  box-shadow: 0 1px 10px rgba(228, 18, 18, 0.1);
+}
+.container header {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+.container form {
+  position: relative;
+  margin-top: 16px;
+  min-height: 490px;
+  /* background-color: #81b637; */
+}
+.container form .details {
+  margin-top: 10px;
+  padding: 30px;
+  background: #51e2f5;
+  border-radius: 6px;
+}
+.container form .title {
+  display: block;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 6px 0;
+  color: #333;
+  margin-top: 0;
+}
+.container form .fields {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.input-field label {
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+form .fields .input-field {
+  display: flex;
+  width: calc(100% / 3 - 15px);
+  flex-direction: column;
+  padding: 10px;
+}
+input {
+  padding: 3px;
+  border-radius: 5px;
+}
+/* .i-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 4em 1em;
+  gap: 3em;
+} */
+.o-container span {
+  background: white;
+}
+
+.output-container {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 6px;
+  padding: 30px;
+  /* margin: 0 15px; */
+  background-color: #dde721;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 4em 1em;
+  gap: 1em;
+}
+.headline {
+  width: 100%;
+  background-color: #51e2f5;
+  padding: 20px;
+}
+.o-info {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+.o-personalinfo {
+  width: 40%;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.o-experience {
+  width: 60%;
+  background-color: rgb(223, 24, 24);
+  padding: 20px;
+}
+.generate-btn {
+  background-color: #2ab4c3;
+  margin-top: 37px;
+  font-size: 23px;
+  padding: 20px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.o-workexp-title {
+  justify-content: space-between;
+  display: flex;
+}
+
+.workexperience-input {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}

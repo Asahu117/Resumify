@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/logo.webp" alt="Logo">
+        </div>
+        <div id="website-name">
+            Your Website Name
+        </div>
+        <div id="login">
+            <a href="#" id="login-link">Login</a>
+        </div>
+    </header>
+    <div class="caption">
+        <h1>Welcome to Your Website</h1>
+        <p>This is the caption in the middle of the webpage.</p>
+    </div>
+    <div class="sections-container">
+        <!-- Rest of your content -->
+    </div>
+    <section class="about-us">
+        <p>Welcome to our website. We are a passionate team dedicated to providing quality solutions for our customers. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla odio vitae tincidunt. Nam pharetra orci at tincidunt. Suspendisse vel metus quis justo cursus laoreet.</p>
+        
+    </section>
+    <div class="login-container" id="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" id="login-button">Login</button>
+        </form>
+        <p id="login-message"></p>
+        <button onclick="window.location.href = 'index.html';">HOME</button>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

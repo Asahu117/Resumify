@@ -1,0 +1,260 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background image */
+body {
+    background-image: url('img/bg1.jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Style the header */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background to the header */
+    color: #fff; /* Set text color to white */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Move the login link to the top right */
+#login {
+    text-align: right;
+}
+
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Logo */
+#logo img {
+    max-width: 100px;
+}
+
+/* Caption */
+.caption {
+    text-align: center;
+    padding: 20px;
+}
+
+.caption h1 {
+    font-size: 36px;
+}
+
+.caption p {
+    font-size: 18px;
+}
+
+/* Sections Container */
+.sections-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.section {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.section:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-title a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.section-title a:hover {
+    color: #007BFF;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about-us-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-us-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .caption h1 {
+        font-size: 24px;
+    }
+
+    .caption p {
+        font-size: 16px;
+    }
+
+    .sections-container {
+        padding: 10px;
+    }
+
+    .section {
+        width: 90%;
+    }
+
+    .about-us-content h2 {
+        font-size: 24px;
+    }
+
+    .about-us-content p {
+        font-size: 16px;
+    }
+
+    /* Additional responsive styles for the header or any other elements as needed */
+}
+
+/* Footer Styles */
+/* Footer Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; /* Position the footer at the bottom */
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer ul li a:hover {
+    color: #007BFF;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-social ul li {
+    margin-right: 10px;
+}
+
+.footer-social ul li:last-child {
+    margin-right: 0;
+}
+
+/* Responsive Styles for Footer */
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        max-width: 80px; /* Reduce logo size on smaller screens */
+    }
+
+    .footer h3 {
+        font-size: 20px; /* Reduce heading size on smaller screens */
+    }
+
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer ul li a {
+        font-size: 14px; /* Reduce font size for links on smaller screens */
+    }
+}
